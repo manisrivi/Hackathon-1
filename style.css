@@ -1,0 +1,35 @@
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+h6,
+p {
+    word-spacing: 2px;
+}
+
+.card-body {
+    background-image: radial-gradient(circle 400px at 6.8% 8.3%, rgb(227, 200, 27) 0%, rgba(255, 244, 234, 1) 100.2%);
+}
+
+.nav_img {
+    border-radius: 5px;
+}
+
+.pic {
+    margin-top: 90px;
+}
+
+p {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.form-control {
+    width: 300px;
+}
